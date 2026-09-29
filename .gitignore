@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow / Keras temporary files
+*.h5
+
+# Python test/cache files
+.pytest_cache/
+
+# Large trained model files
+# Uncomment this if the model is too large for normal GitHub upload
+# models/*.keras
+# Trained ML model
+models/*.keras
+
+# Personal face images used for testing
+reference.jpg
+test.jpg
